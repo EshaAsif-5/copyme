@@ -54,9 +54,11 @@ export default function Operations() {
             ))}
           </ul>
 
-          <a href="#operations" className={styles.link}>
-            A truly great thing done easily &rarr;
-          </a>
+         <div className={styles.headingBox}>
+  <h2 className={styles.heading}>
+    <span className={styles.headingAccent}>Truly great</span> things done easily
+  </h2>
+</div>
         </div>
       </div>
     </section>
