@@ -61,10 +61,11 @@ export default function Product() {
               </li>
             ))}
           </ul>
-
-          <a href="#product" className={styles.link}>
-            A guide on how to learn to work &rarr;
-          </a>
+<div className={styles.headingBox}>
+  <h2 className={styles.heading}>
+    <span className={styles.headingAccent}>AI guides you</span> from idea to market fit.
+  </h2>
+</div>
         </div>
 
         {/* Right: Illustration */}
